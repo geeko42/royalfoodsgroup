@@ -60,7 +60,7 @@ export default function Home() {
                   <button className='rounded-2xl bg-light-color px-8 py-2 text-xs uppercase text-myButtonText-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 lg:text-sm'>
                     contact us
                   </button>
-                  <a href='/public/files/profile.pdf' download>
+                  <a href='/files/profile.pdf' download='Compnay Profile'>
                     <button className='rounded-2xl bg-white px-8 py-2 text-xs uppercase text-black shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 lg:text-sm'>
                       download profile
                     </button>
