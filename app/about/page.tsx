@@ -183,7 +183,7 @@ const About: NextPage = () => {
                   </div>
                   <div className='mt-6 flex-grow sm:mt-0 sm:pl-6'>
                     <p className='text-left leading-relaxed'>
-                      Launched the Royal poultry range
+                      Royal launched a variety of the poultry range
                     </p>
                   </div>
                 </div>

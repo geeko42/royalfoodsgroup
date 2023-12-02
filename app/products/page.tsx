@@ -53,7 +53,7 @@ const Products: NextPage = () => {
                   We Make tasty delights everyday at Royal Foods Group. Proudly
                   made in Pakistan, by food lovers for food lovers.
                 </p>
-                <div className='flex flex-wrap  md:gap-4'>
+                <div className='flex flex-wrap gap-1 md:gap-4'>
                   <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-light-color text-xs uppercase text-myButtonText-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
                     <GiTomato className='text-3xl md:text-4xl' />
                     <label htmlFor='' className='md:text-md text-[10px]'>
