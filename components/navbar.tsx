@@ -11,7 +11,7 @@ import {
   AiOutlineYoutube,
 } from 'react-icons/ai';
 import { RxCrossCircled } from 'react-icons/rx';
-import Animation from '@/components/animation';
+
 
 const NavBar: NextPage = () => {
   const [fix, setFix] = useState(false);
