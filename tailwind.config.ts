@@ -21,6 +21,8 @@ const config: Config = {
         'light-color': 'var(--light-color)',
         'offwhite-color': 'var(--offwhite-color)',
         'bodyText-color': 'var(--myBodeText-color)',
+        'primary-color': 'var(--primary-color)',
+        'secondary-color': 'var(--secondary-color)',
       },
     },
   },

@@ -11,7 +11,7 @@
   width: 60px;
   height: 60px;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .box div:nth-child(1) {

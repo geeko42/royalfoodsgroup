@@ -7,9 +7,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --mytext-color: #000000;
-  --myButtonText-color: #ffffff;
+  --primary-color: #f5e9de;
+  --secondary-color: #facc15;
   --myUnderLine-color: #047d4f;
-  --myYellow-color: #047d4f;
+
   --dark-color: #013c25;
   --light-color: #047d4f;
   --offwhite-color: #f5e9de;
