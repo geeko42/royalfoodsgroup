@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
-  output: {
-    export: true,
-  },
+  output: 'export',
   images: {
     unoptimized: true,
   },
@@ -11,3 +9,8 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+
+// output: {
+//     export: true,
+//   },
