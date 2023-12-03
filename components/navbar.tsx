@@ -55,7 +55,7 @@ const NavBar: NextPage = () => {
             : 'fixed z-10 flex h-32 w-full items-center justify-between bg-opacity-0 px-10 text-mytext-color transition-all duration-500 lg:hidden lg:px-24 xl:px-32'
         }
       >
-        <Link href=''>
+        <Link href='/#'>
           {color ? (
             <Image
               src={logo}
@@ -131,7 +131,7 @@ const NavBar: NextPage = () => {
             : 'fixed z-10 hidden h-32 w-full items-center justify-between bg-opacity-0 px-10 text-mytext-color transition-all duration-500 lg:flex lg:px-24 xl:px-32'
         }
       >
-        <Link href=''>
+        <Link href='/#'>
           {color ? (
             <Image
               src={logo}

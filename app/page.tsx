@@ -207,7 +207,7 @@ export default function Home() {
       <section className='body-font container w-full px-10 py-24 text-mytext-color lg:px-24 xl:px-32'>
         <div className='mx-auto w-full'>
           <div className=''>
-            <div className='-mx-4 -mb-10 -mt-4 flex flex-wrap items-center gap-6 sm:-m-4 md:flex-nowrap'>
+            <div className='-mx-4 -mb-10 -mt-4 flex flex-wrap items-center justify-center gap-6 sm:-m-4 md:flex-nowrap'>
               <div className='mb-6 p-4 sm:mb-0 md:w-1/3'>
                 <div className='flex items-center'>
                   <h2 className='title-font w-full pr-10 text-lg uppercase lg:text-2xl'>
