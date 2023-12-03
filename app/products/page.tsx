@@ -17,7 +17,7 @@ import {
 
 const Products: NextPage = () => {
   return (
-    <Animation>
+    // <Animation>
       <main className='flex h-screen flex-col items-center justify-between bg-offwhite-color'>
         {/* Background Animation */}
         <div className='wrapper'>
@@ -142,7 +142,7 @@ const Products: NextPage = () => {
           </div>
         </section>
       </main>
-    </Animation>
+    // {/* </Animation> */}
   );
 };
 

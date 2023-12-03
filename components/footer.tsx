@@ -32,9 +32,9 @@ const Footer: NextPage = () => {
           </p>
         </div>
         <div className='flex flex-col justify-between gap-1 text-xs text-black'>
-          <a href=''>Home</a>
-          <a href=''>Products</a>
-          <a href=''>About</a>
+          <a href='/#'>Home</a>
+          <a href='/products'>Products</a>
+          <a href='/about'>About</a>
           <a href=''>Contact</a>
         </div>
         <div className='hidden md:flex md:flex-col  md:justify-center'>

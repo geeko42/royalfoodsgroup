@@ -7,7 +7,7 @@ import image2 from '../../public/images/pic2.png';
 
 const About: NextPage = () => {
   return (
-    <Animation>
+    // <Animation>
       <main className='flex flex-col items-center justify-between'>
         {/* Background Animation */}
         <div className='wrapper'>
@@ -248,7 +248,7 @@ const About: NextPage = () => {
           </section>
         </section>
       </main>
-    </Animation>
+    // </Animation>
   );
 };
 

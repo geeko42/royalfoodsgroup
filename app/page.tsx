@@ -14,7 +14,7 @@ import logo7 from '../public/packagingLogos/pk.png';
 
 export default function Home() {
   return (
-    <Animation>
+    // <Animation>
       <main className='flex flex-col items-center justify-between bg-white'>
         {/* Background Animation */}
         <div className='wrapper'>
@@ -215,7 +215,7 @@ export default function Home() {
                     </h2>
                     <div className='h-[0.5px] w-1/2 bg-mytext-color md:w-full'></div>
                   </div>
-                  <p className='mt-2 text-sm leading-relaxed'>
+                  <p className='mt-2 text-xs lg:text-sm leading-relaxed'>
                     We are proud to be a transparent and sincere company,
                     offering delicious and sanitary food made with care for your
                     loved ones.
@@ -229,7 +229,7 @@ export default function Home() {
                     height={250}
                     alt='Logo'
                   />
-                  <p className='text-sm leading-relaxed text-black'>
+                  <p className='text-xs lg:text-sm text-center leading-relaxed'>
                     One of the fastest growing food companies in Pakistan
                   </p>
                   <div className='mt-4 flex flex-wrap'>
@@ -251,7 +251,7 @@ export default function Home() {
                 </div>
                 <div className='flex flex-col items-center justify-center rounded-lg px-4 py-8 lg:w-1/3'>
                   <Image src={logoe} width={250} alt='Logo' />
-                  <p className='text-center text-sm leading-relaxed text-black'>
+                  <p className='text-xs lg:text-sm text-center leading-relaxed'>
                     Our export brand meeting stringent export quality
                     requirements
                   </p>
@@ -280,17 +280,17 @@ export default function Home() {
         {/* Contact Us */}
         <section className='body-font relative w-full bg-gray-100 py-24 text-gray-600'>
           <div className='container mx-auto flex flex-wrap px-10 sm:flex-nowrap lg:px-32'>
-            <div className='relative flex items-end justify-start overflow-hidden rounded-lg bg-gray-300 p-10 sm:mr-10 md:w-1/2 lg:w-2/3'>
+            <div className='relative hidden md:flex items-end justify-start overflow-hidden rounded-lg bg-gray-300 p-10 sm:mr-10 w-full md:w-1/2 lg:w-2/3'>
               <iframe
                 width='100%'
                 height='100%'
                 className='absolute inset-0'
                 title='map'
                 scrolling='no'
-                src='https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed'
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.353679086228!2d73.23065581962311!3d33.51817649454963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dff032a00577b9%3A0xd434d8d8889a992a!2sRoyal%20Frozen%20Foods%20SMC%20Pvt%20Ltd!5e0!3m2!1sen!2s!4v1701599889414!5m2!1sen!2s'
                 style={{ filter: 'grayscale(1) contrast(1.2) opacity(1)' }}
               />
-              <div className='relative flex flex-wrap rounded bg-white py-6 shadow-md'>
+              <div className='relative hidden md:flex flex-wrap rounded bg-white py-6 shadow-md'>
                 <div className='px-6 lg:w-1/2'>
                   <h2 className='title-font text-xs font-semibold tracking-widest text-gray-900'>
                     ADDRESS
@@ -316,7 +316,7 @@ export default function Home() {
             </div>
             <div className='mt-8 flex w-full flex-col text-bodyText-color md:ml-auto md:mt-0 md:w-1/2 md:py-8 lg:w-1/3'>
               <div className='flex items-center justify-center'>
-                <h2 className='title-font w-full pr-10 text-lg uppercase text-mytext-color md:text-2xl'>
+                <h2 className='title-font w-full pr-10 text-lg uppercase text-mytext-color lg:text-2xl'>
                   Contact us
                 </h2>
                 <div className='h-[0.5px] w-full bg-mytext-color'></div>
@@ -368,8 +368,8 @@ export default function Home() {
                   Submit
                 </button>
                 <p className='mt-3 text-xs text-mytext-color'>
-                  Chicharrones blog helvetica normcore iceland tousled brook
-                  viral artisan.
+                  {/* Chicharrones blog helvetica normcore iceland tousled brook
+                  viral artisan. */}
                 </p>
               </div>
             </div>
@@ -378,6 +378,6 @@ export default function Home() {
 
         {/* <Footer /> */}
       </main>
-    </Animation>
+    // </Animation>
   );
 }

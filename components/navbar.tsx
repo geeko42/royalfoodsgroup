@@ -191,10 +191,11 @@ const NavBar: NextPage = () => {
               </Link>
             </li>
           </ul>
-
+          <a href='/files/brochure.pdf' download='Brochure'>
           <button className='rounded-2xl bg-light-color uppercase text-myButtonText-color transition duration-300 hover:-translate-y-1 hover:scale-110 lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'>
             download brochure
           </button>
+          </a>
         </div>
       </nav>
     </div>
