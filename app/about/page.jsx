@@ -79,8 +79,8 @@ const About = () => {
                   />
                 </div>
                 <div className='mt-4 text-left text-primary-color'>
-                  <h1 className='text-sm  md:text-2xl'>Mr. Zahid Mehmud</h1>
-                  <h2 className='text-md'>Chairman & Founder</h2>
+                  <h1 className='text-xl  md:text-2xl'>Mr. Zahid Mehmud</h1>
+                  <h2 className='text-sm'>Chairman & Founder</h2>
                 </div>
               </div>
               <div>
@@ -92,8 +92,8 @@ const About = () => {
                   />
                 </div>
                 <div className='mt-4 text-left text-primary-color'>
-                  <h1 className='text-sm  md:text-2xl'>Mr. Haider Mehmud</h1>
-                  <h2 className='text-md'>CEO & Co-Founder</h2>
+                  <h1 className='text-xl  md:text-2xl'>Mr. Haider Mehmud</h1>
+                  <h2 className='text-sm'>CEO & Co-Founder</h2>
                 </div>
               </div>
             </div>

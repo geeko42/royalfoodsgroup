@@ -53,32 +53,32 @@ const Products = () => {
                 made in Pakistan, by food lovers for food lovers.
               </p>
               <div className='flex flex-wrap gap-1 md:gap-4'>
-                <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-secondary-color text-xs uppercase text-myButtonText-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
-                  <GiTomato className='text-3xl md:text-4xl' />
+                <a className='flex h-20 w-20 flex-col items-center justify-center rounded-2xl bg-secondary-color text-xs uppercase text-myButtonText-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
+                  <GiTomato className='text-4xl md:text-4xl' />
                   <label htmlFor='' className='md:text-md text-[10px]'>
                     Vegetable
                   </label>
                 </a>
-                <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
-                  <GiChickenOven className='text-3xl md:text-4xl' />
+                <a className='flex h-20 w-20 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
+                  <GiChickenOven className='text-4xl md:text-4xl' />
                   <label htmlFor='' className='md:text-md text-[10px]'>
                     Chicken
                   </label>
                 </a>
-                <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
-                  <GiCirclingFish className='text-3xl md:text-4xl' />
+                <a className='flex h-20 w-20 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
+                  <GiCirclingFish className='text-4xl md:text-4xl' />
                   <label htmlFor='' className='md:text-md text-[10px]'>
                     Fish
                   </label>
                 </a>
-                <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
-                  <GiShrimp className='text-3xl md:text-4xl' />
+                <a className='flex h-20 w-20 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
+                  <GiShrimp className='text-4xl md:text-4xl' />
                   <label htmlFor='' className='md:text-md text-[10px]'>
                     Prawns
                   </label>
                 </a>
-                <a className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
-                  <GiWheat className='text-3xl md:text-4xl' />
+                <a className='flex h-20 w-20 flex-col items-center justify-center rounded-2xl bg-primary-color text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer md:h-24 md:w-24 lg:text-sm'>
+                  <GiWheat className='text-4xl md:text-4xl' />
                   <label htmlFor='' className='md:text-md text-[10px]'>
                     Parathas
                   </label>

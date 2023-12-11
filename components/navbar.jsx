@@ -62,11 +62,11 @@ const NavBar = () => {
                     About
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href='/#' onClick={() => setIsOpen(!isOpen)}>
                     Gallery
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </motion.div>
@@ -120,10 +120,10 @@ const NavBar = () => {
       </nav>
 
       {/* Desktop Navbar */}
-      <section className='fixed z-20 mx-auto flex h-24 w-full justify-center bg-black bg-opacity-20 backdrop-blur-md'>
+      <section className='fixed z-20 mx-auto flex h-24 w-full justify-center bg-black bg-opacity-20 backdrop-blur-md '>
         <nav
           className={
-            'container fixed z-10 hidden h-24 w-full items-center justify-between text-primary-color transition-all duration-500 lg:flex '
+            'container fixed z-10 hidden h-24 w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex xl:px-0'
           }
         >
           <ul
@@ -175,7 +175,7 @@ const NavBar = () => {
             >
               <li>
                 <Link
-                  href=''
+                  href='https://www.instagram.com/royalfoodsgroup/?hl=en'
                   className='group font-normal transition duration-300 hover:cursor-pointer'
                 >
                   <AiOutlineInstagram className='lg:text-xl xl:text-2xl' />
@@ -188,7 +188,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  href=''
+                  href='https://www.facebook.com/RoyalFoodsGroup'
                   className='group font-normal transition duration-300 hover:cursor-pointer'
                 >
                   <AiFillFacebook className='lg:text-xl xl:text-2xl' />
@@ -201,7 +201,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
-                  href=''
+                  href='https://www.youtube.com/watch?v=FAZuX7Aj6UA'
                   className='group font-normal transition duration-300 hover:cursor-pointer'
                 >
                   <AiOutlineYoutube className='lg:text-xl xl:text-2xl' />
