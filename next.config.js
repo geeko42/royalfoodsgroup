@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // theme: {
+  //   extend: {
+  //     backgroundImage: {
+  //       'hero-pattern': "url('/public/images/bg.jpg')",
+  //     },
+  //   },
+  // },
   trailingSlash: true,
   output: {
     export: true,
@@ -11,7 +18,6 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
-
 
 // output: {
 //     export: true,

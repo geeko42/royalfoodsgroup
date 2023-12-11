@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -23,9 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     },
     "forceConsistentCasingInFileNames": true
   },
@@ -35,9 +29,17 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/animation.js",
-    "components/animation.jsx"
+    "components/animation.jsx",
+    "components/contactUs.jsx",
+    "app/layout.jsx",
+    "app/page.jsx",
+    "app/about/page.jsx",
+    "app/api/contact/route.js",
+    "app/products/page.jsx",
+    "components/navbar.jsx",
+    "components/footer.jsx",
+    "lib/api.js",
+    "app/api/contact/route.jsx"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

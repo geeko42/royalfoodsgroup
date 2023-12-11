@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import NavBar from '@/components/navbar';
 import Footer from '@/components/footer';
@@ -11,17 +10,13 @@ const poppins = Poppins({
   variable: '--poppins',
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Royal Frozen Foods',
   description: 'Eat',
   icons: './favicon.ico',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={poppins.className}>

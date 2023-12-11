@@ -23,6 +23,7 @@ const config: Config = {
         'bodyText-color': 'var(--myBodeText-color)',
         'primary-color': 'var(--primary-color)',
         'secondary-color': 'var(--secondary-color)',
+        'third-color': 'var(--third-color)',
       },
     },
   },

@@ -9,7 +9,7 @@ const animations = {
   exit: { opacity: 0, y: -200 },
 };
 
-const AnimatedPage = ({ children, ...props }: any) => {
+const AnimatedPage = (children, ...props) => {
   return (
     <motion.div
       variants={animations}

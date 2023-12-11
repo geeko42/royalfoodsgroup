@@ -1,4 +1,3 @@
-import type { NextPage } from 'next';
 import Image from 'next/image';
 import logo from '../public/logos/logo-green.png';
 import logo4 from '../public/packagingLogos/haccp.png';
@@ -11,12 +10,12 @@ import {
   AiOutlineYoutube,
 } from 'react-icons/ai';
 
-const Footer: NextPage = () => {
+const Footer = () => {
   return (
-    <div className='w-screen bg-gray-300'>
-      <div className='container mx-auto flex w-full justify-between px-10 py-12 lg:px-32'>
+    <div className='relative z-30 w-screen bg-primary-color'>
+      <div className='container mx-auto flex w-full justify-between px-10 py-5 lg:px-32'>
         <div className='hidden xl:block'>
-          <Image src={logo} priority width={200} height={200} alt='royalLogo' />
+          <Image src={logo} priority width={150} height={150} alt='royalLogo' />
         </div>
         <div className='flex flex-col gap-1 text-xs text-black'>
           <p>Royal Foods Group</p>
@@ -31,13 +30,16 @@ const Footer: NextPage = () => {
             info@royalfoodsgroup.com
           </p>
         </div>
-        <div className='flex flex-col justify-between gap-1 text-xs text-black'>
+        <div className='flex flex-col justify-start gap-2 text-xs text-black'>
+          <a href='' className='font-bold'>
+            Navigation
+          </a>
           <a href='/#'>Home</a>
           <a href='/products'>Products</a>
           <a href='/about'>About</a>
           <a href=''>Contact</a>
         </div>
-        <div className='hidden md:flex md:flex-col  md:justify-center'>
+        <div className='hidden md:flex md:flex-col md:justify-start'>
           <div className='flex h-14 w-20'>
             <Image src={logo7} alt='' />
             <Image src={logo5} alt='' />
@@ -47,13 +49,13 @@ const Footer: NextPage = () => {
             <Image src={logo4} alt='' />
           </div>
         </div>
-        <div className='hidden flex-col items-center justify-center gap-4 md:flex'>
+        <div className='hidden flex-col items-center justify-start gap-4 md:flex'>
           <AiOutlineInstagram className='text-2xl text-black' />
           <AiFillFacebook className='text-2xl text-black' />
           <AiOutlineYoutube className='text-2xl text-black' />
         </div>
       </div>
-      <div className='flex h-10 items-center bg-gray-600'>
+      <div className='bg-third-color flex h-10 items-center'>
         <div className='mx-auto text-xs text-white'>
           <h1>Copyright © 2023 Royal Frozen Foods | All Rights Reserved</h1>
         </div>
