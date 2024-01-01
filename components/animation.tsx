@@ -1,7 +1,7 @@
 'use client';
 
 import { LayoutProps, motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 const animations = {
   initial: { opacity: 0, y: 200 },
@@ -9,7 +9,12 @@ const animations = {
   exit: { opacity: 0, y: -200 },
 };
 
-const AnimatedPage = (children, ...props) => {
+interface Props {
+  children?: ReactNode;
+  // any props that come into the component
+}
+
+const AnimatedPage = ({ children, ...props }: Props) => {
   return (
     <motion.div
       variants={animations}
