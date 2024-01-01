@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logoW from '/public/logos/logo-white.png';
+import logoG from '/public/logos/logo-green.png';
 import {
   AiOutlineInstagram,
   AiFillFacebook,
@@ -13,10 +13,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
-  { name: 'Home', href: '/#' },
-  { name: 'Products', href: '/products' },
-  { name: 'About Us', href: '/about' },
-  // { name: 'Gallery', href: '/gallery' },
+  { name: 'Home', href: '/' },
+  { name: 'Products', href: '/products/' },
+  { name: 'About Us', href: '/about/' },
+  { name: 'Gallery', href: '/gallery/' },
 ];
 
 const NavBar = () => {
@@ -35,7 +35,7 @@ const NavBar = () => {
     },
   };
 
-  function MobileNav({ isOpen }) {
+  function MobileNav({ isOpen }: { isOpen: boolean }) {
     return (
       <AnimatePresence>
         {isOpen && (
@@ -43,12 +43,12 @@ const NavBar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className={`fixed left-0 top-0 z-50 h-screen w-screen bg-black bg-opacity-40 backdrop-blur-md transition-opacity`}
+            className={`fixed left-0 top-0 z-50 h-screen w-screen  bg-opacity-40 backdrop-blur-md transition-opacity`}
           >
             <div className='flex h-full flex-col items-center justify-center text-center text-2xl text-primary-color'>
               <ul className='space-y-6'>
                 <li>
-                  <Link href='/#' onClick={() => setIsOpen(!isOpen)}>
+                  <Link href='/' onClick={() => setIsOpen(!isOpen)}>
                     Home
                   </Link>
                 </li>
@@ -78,14 +78,14 @@ const NavBar = () => {
   return (
     <div className='flex justify-center'>
       {/* Mobile/Tablet Navbar */}
-      <nav>
-        <MobileNav isOpen={isOpen} setIsOpen={setIsOpen} />
+      <nav className=''>
+        <MobileNav isOpen={isOpen} />
         <div className='flex w-full items-center justify-end lg:hidden'>
           {/* Logo */}
           <div className='fixed left-5 top-1 z-50'>
             <Link href='/#'>
               <Image
-                src={logoW}
+                src={logoG}
                 width={100}
                 height={100}
                 priority
@@ -101,17 +101,17 @@ const NavBar = () => {
             }}
           >
             <span
-              className={`h-1 w-full transform cursor-pointer rounded-lg bg-white transition duration-300 ease-in-out group-hover:text-red-500 ${
+              className={`h-1 w-full transform cursor-pointer rounded-lg bg-primary-color transition duration-300 ease-in-out group-hover:text-red-500 ${
                 isOpen ? 'translate-y-2.5 rotate-45' : ''
               }`}
             />
             <span
-              className={`h-1 transform cursor-pointer rounded-lg bg-white transition duration-300 ease-in-out group-hover:text-red-500 ${
+              className={`h-1 transform cursor-pointer rounded-lg bg-primary-color transition duration-300 ease-in-out group-hover:text-red-500 ${
                 isOpen ? 'w-0' : 'w-full'
               }`}
             />
             <span
-              className={`h-1 w-full transform cursor-pointer rounded-lg bg-white transition duration-300 ease-in-out group-hover:text-red-500 ${
+              className={`h-1 w-full transform cursor-pointer rounded-lg bg-primary-color transition duration-300 ease-in-out group-hover:text-red-500 ${
                 isOpen ? '-translate-y-2.5 -rotate-45' : ''
               }`}
             />
@@ -120,10 +120,10 @@ const NavBar = () => {
       </nav>
 
       {/* Desktop Navbar */}
-      <section className='fixed z-20 mx-auto flex h-24 w-full justify-center bg-black bg-opacity-20 backdrop-blur-md '>
+      <section className='absolute top-0 z-20 mx-auto flex h-28 w-full justify-center '>
         <nav
           className={
-            'container fixed z-10 hidden h-24 w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex xl:px-0'
+            'container hidden w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex xl:px-24'
           }
         >
           <ul
@@ -132,7 +132,7 @@ const NavBar = () => {
             }
           >
             {navLinks.map((link) => {
-              const isActive = pathname.startsWith(link.href);
+              const isActive = pathname === link.href;
               return (
                 <Link
                   href={link.href}
@@ -158,7 +158,7 @@ const NavBar = () => {
 
           <Link href='/#'>
             <Image
-              src={logoW}
+              src={logoG}
               width={110}
               height={110}
               priority
@@ -181,7 +181,7 @@ const NavBar = () => {
                   <AiOutlineInstagram className='lg:text-xl xl:text-2xl' />
                   <span
                     className={
-                      'block h-0.5 max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
+                      'block h-[0.5px] max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
                     }
                   ></span>
                 </Link>
@@ -194,7 +194,7 @@ const NavBar = () => {
                   <AiFillFacebook className='lg:text-xl xl:text-2xl' />
                   <span
                     className={
-                      'block h-0.5 max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
+                      'block h-[0.5px] max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
                     }
                   ></span>
                 </Link>
@@ -207,7 +207,7 @@ const NavBar = () => {
                   <AiOutlineYoutube className='lg:text-xl xl:text-2xl' />
                   <span
                     className={
-                      'block h-0.5 max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
+                      'block h-[0.5px] max-w-0 bg-primary-color transition-all duration-500 group-hover:max-w-full'
                     }
                   ></span>
                 </Link>
@@ -216,7 +216,7 @@ const NavBar = () => {
             <a href='/files/brochure.pdf' download='Brochure'>
               <button
                 className={
-                  'text-third-color rounded-2xl bg-primary-color uppercase shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'
+                  'text-fourth-color rounded-2xl bg-primary-color uppercase shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'
                 }
               >
                 download brochure

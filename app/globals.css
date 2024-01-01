@@ -6,17 +6,16 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --mytext-color: #000000;
-  --primary-color: #f5e9de;
+  --primary-color: #000000;
   --secondary-color: #facc15;
   --third-color: #000000;
-  --myUnderLine-color: #047d4f;
+  --fourth-color: #f5e9de;
+  --fifth-color: #035836;
 
   /* --primary-color: #f5e9de; */
 
   --dark-color: #022014;
   --light-color: #035836;
-  --offwhite-color: #f5e9de;
 }
 
 @media (prefers-color-scheme: dark) {

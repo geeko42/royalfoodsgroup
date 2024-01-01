@@ -1,4 +1,5 @@
 import { Poppins } from 'next/font/google';
+import { Providers } from './providers';
 import NavBar from '@/components/navbar';
 import Footer from '@/components/footer';
 import './globals.css';
@@ -16,13 +17,19 @@ export const metadata = {
   icons: './favicon.ico',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children, // will be a page or nested layout
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang='en'>
       <body className={poppins.className}>
-        <NavBar />
-        {children}
-        <Footer />
+        <Providers>
+          <NavBar />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

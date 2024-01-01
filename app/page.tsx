@@ -1,12 +1,10 @@
 import Image from 'next/image';
 
 import ContactUs from '@/components/contactUs';
-import NavBar from '@/components/navbar';
 
 import fryingpan from '../public/images/heroImg.png';
 import logoe from '/public/images/easternlogo.png';
 import logo from '/public/logos/logo-green.png';
-import logoW from '/public/logos/logo-white.png';
 import logo1 from '../public/images/ingredients.png';
 import logo2 from '../public/images/injection.png';
 import logo3 from '../public/images/standards.png';
@@ -19,9 +17,9 @@ export default function Home() {
   return (
     // <Animation>
     <main>
-      <div className='z-1 fixed h-full w-full'>
+      {/* <div className='z-1 fixed h-full w-full'>
         <div className='h-full w-full bg-gradient-to-br from-dark-color to-light-color object-cover'></div>
-      </div>
+      </div> */}
       <section className='flex flex-col items-center justify-between'>
         {/* Background Animation */}
         <div className='wrapper'>
@@ -40,7 +38,7 @@ export default function Home() {
         </div>
 
         {/* Hero Section */}
-        <section className='h-[1000px] w-full'>
+        <section className='h-screen w-full'>
           <div className='container mx-auto flex h-full flex-wrap px-4 sm:px-0 md:px-14 lg:px-24'>
             <div className='z-1 relative w-full md:w-2/4'>
               <div className='flex h-full w-full flex-col items-center justify-center space-y-6 text-center text-primary-color md:items-start md:text-left'>
@@ -52,7 +50,7 @@ export default function Home() {
 
                 <h1 className='text-4xl font-normal text-primary-color md:text-5xl lg:text-6xl'>
                   For the Love of{' '}
-                  <span className='text-4xl font-bold text-secondary-color md:text-5xl lg:text-6xl'>
+                  <span className='text-4xl font-bold text-light-color md:text-5xl lg:text-6xl'>
                     Food
                   </span>
                 </h1>
@@ -64,11 +62,11 @@ export default function Home() {
                   providing great-tasting food at prices that break the wallet.
                 </p>
                 <div className='flex space-x-5'>
-                  <button className='text-third-color rounded-2xl bg-primary-color px-8 py-2 text-xs uppercase shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 lg:text-sm'>
+                  <button className='text-fourth-color bg-fifth-color rounded-2xl px-8 py-2 text-xs uppercase shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:text-sm'>
                     contact us
                   </button>
                   <a href='/files/profile.pdf' download='Compnay Profile'>
-                    <button className='rounded-2xl bg-offwhite-color px-8 py-2 text-xs uppercase text-black shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 lg:text-sm'>
+                    <button className='text-fourth-color bg-fifth-color rounded-2xl px-8 py-2 text-xs uppercase text-black shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:text-sm'>
                       download profile
                     </button>
                   </a>
@@ -116,7 +114,7 @@ export default function Home() {
           </div>
           <div className='mb-10 mt-4 flex flex-wrap justify-center sm:-m-4'>
             <div className='mb-6 h-72 w-full p-4 sm:mb-0 sm:w-2/3 lg:w-1/3'>
-              <div className='flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg bg-offwhite-color px-4 py-4 shadow-xl'>
+              <div className='bg-fourth-color flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg px-4 py-4 shadow-xl'>
                 <div className='w-full text-left text-black'>
                   <div>
                     <div className='flex items-center space-x-2'>
@@ -148,7 +146,7 @@ export default function Home() {
             </div>
 
             <div className='mb-6 h-72 w-full p-4 sm:mb-0 sm:w-2/3 lg:w-1/3'>
-              <div className='flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg bg-offwhite-color px-4 py-4 shadow-xl'>
+              <div className='flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg px-4 py-4 shadow-xl'>
                 <div className='w-full text-left text-black'>
                   <div>
                     <div className='flex items-center space-x-2'>
@@ -179,7 +177,7 @@ export default function Home() {
             </div>
 
             <div className='mb-6 h-72 w-full p-4 sm:mb-0 sm:w-2/3 lg:w-1/3'>
-              <div className='flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg bg-offwhite-color px-4 py-4 shadow-xl'>
+              <div className='bg-fourth-color flex h-full items-center justify-center space-x-4 overflow-hidden rounded-lg px-4 py-4 shadow-xl'>
                 <div className='w-full text-left text-black'>
                   <div>
                     <div className='flex items-center space-x-2'>

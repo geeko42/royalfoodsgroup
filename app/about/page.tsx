@@ -13,7 +13,7 @@ import pic9 from '/public/images/pic9.png';
 const About = () => {
   return (
     // <Animation>
-    <main className='flex flex-col items-center justify-between bg-gradient-to-r from-dark-color to-light-color'>
+    <main className='flex flex-col items-center justify-between'>
       {/* Background Animation */}
       <div className='wrapper'>
         <div className='box'>
@@ -36,7 +36,7 @@ const About = () => {
           <div className='flex flex-col items-center justify-center gap-0 py-10 text-center md:gap-4'>
             <h1 className='text-center text-4xl font-normal text-primary-color md:text-left md:text-6xl'>
               Leadership{' '}
-              <span className='font-bold text-secondary-color'>Team</span>
+              <span className='text-fifth-color font-bold'>Team</span>
             </h1>
             <p className='text-md mt-4 w-4/6 hyphens-none text-primary-color md:mt-0 md:text-lg'>
               A father and son team like no other. We believe in passing our
@@ -45,11 +45,11 @@ const About = () => {
           </div>
         </div>
 
-        <div className='flex gap-4 rounded-lg bg-primary-color bg-opacity-50 px-4 py-10 text-center md:px-10 md:py-10'>
-          <div className='text-third-color flex w-full flex-col justify-center gap-4 overflow-hidden'>
+        <div className='bg-fourth-color flex gap-4 rounded-lg bg-opacity-50 px-4 py-10 text-center md:px-10 md:py-10'>
+          <div className='flex w-full flex-col justify-center gap-4 overflow-hidden text-third-color'>
             <h1 className='py-2 text-center text-xl font-normal md:text-3xl'>
               Message from the{' '}
-              <span className='bg-third-color h-full rounded-lg px-2 font-bold text-primary-color'>
+              <span className='bg-fifth-color h-full rounded-lg px-2 font-bold text-white'>
                 CEO
               </span>
             </h1>
@@ -65,13 +65,12 @@ const About = () => {
           <div className='flex flex-col'>
             <div>
               <h1 className='text-center text-4xl text-primary-color md:text-6xl'>
-                The{' '}
-                <span className='font-bold text-secondary-color'>Founders</span>
+                The <span className='text-fifth-color font-bold'>Founders</span>
               </h1>
             </div>
             <div className='mt-10 flex flex-wrap items-center justify-center gap-12 md:gap-8'>
               <div>
-                <div className='flex justify-center rounded-lg bg-offwhite-color shadow-lg'>
+                <div className='bg-fourth-color flex justify-center rounded-lg shadow-lg'>
                   <Image
                     src={image1}
                     className='h-80 w-72 p-2 md:p-4'
@@ -84,7 +83,7 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className='flex justify-center rounded-lg bg-offwhite-color shadow-lg'>
+                <div className='bg-fourth-color flex justify-center rounded-lg shadow-lg'>
                   <Image
                     src={image2}
                     className='h-80 w-72 p-2 md:p-4'
@@ -105,9 +104,9 @@ const About = () => {
       <section className='container mx-auto my-32 mt-40 grid w-full max-w-7xl grid-cols-9 px-4'>
         {/* Stack 1 */}
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2010</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2010</h1>
+            <p className='md:text-md text-xs text-third-color'>
               Royal Foods launches its frozen food factory, one of the first
               based in Rawat Industrial Estate generating employment for 30
               people
@@ -116,8 +115,8 @@ const About = () => {
         </div>
 
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             1
           </div>
         </div>
@@ -143,16 +142,16 @@ const About = () => {
           />
         </div>
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             2
           </div>
         </div>
 
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2011</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2011</h1>
+            <p className='md:text-md text-xs text-third-color'>
               We expanded our production capacity and range increasing staff
               count to 60
             </p>
@@ -161,9 +160,9 @@ const About = () => {
 
         {/* Stack 3 */}
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2014</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2014</h1>
+            <p className='md:text-md text-xs text-third-color'>
               Growth and expansion followed our continued investment reaching
               southern and central Pakistan
             </p>
@@ -171,8 +170,8 @@ const About = () => {
         </div>
 
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             3
           </div>
         </div>
@@ -198,16 +197,16 @@ const About = () => {
           />
         </div>
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             4
           </div>
         </div>
 
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2015</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2015</h1>
+            <p className='md:text-md text-xs text-third-color'>
               Royal launched a variety of the poultry range
             </p>
           </div>
@@ -215,17 +214,17 @@ const About = () => {
 
         {/* Stack 5 */}
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2017</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2017</h1>
+            <p className='md:text-md text-xs text-third-color'>
               Royal launched a variety of the fish range
             </p>
           </div>
         </div>
 
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             5
           </div>
         </div>
@@ -251,16 +250,16 @@ const About = () => {
           />
         </div>
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             6
           </div>
         </div>
 
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2019</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2019</h1>
+            <p className='md:text-md text-xs text-third-color'>
               Staff count exceeds 100 and our products are widely available
               throughout Pakistan
             </p>
@@ -269,9 +268,9 @@ const About = () => {
 
         {/* Stack 7 */}
         <div className='col-span-4 flex w-full items-center'>
-          <div className='w-full rounded-lg bg-primary-color p-5 md:pl-4'>
-            <h1 className='text-third-color py-2 text-3xl'>2021</h1>
-            <p className='text-third-color md:text-md text-xs'>
+          <div className='bg-fourth-color w-full rounded-lg p-5 md:pl-4'>
+            <h1 className='py-2 text-3xl text-third-color'>2021</h1>
+            <p className='md:text-md text-xs text-third-color'>
               New management takes over with a vision to become the No. 1 food
               company in Pakistan
             </p>
@@ -279,8 +278,8 @@ const About = () => {
         </div>
 
         <div className='relative col-span-1 flex h-full w-full items-center justify-center'>
-          <div className='h-full w-[0.5px] bg-primary-color'></div>
-          <div className='text-third-color absolute z-10 h-6 w-6 rounded-full bg-primary-color text-center'>
+          <div className='bg-fourth-color h-full w-[0.5px]'></div>
+          <div className='bg-fourth-color absolute z-10 h-6 w-6 rounded-full text-center text-third-color'>
             7
           </div>
         </div>

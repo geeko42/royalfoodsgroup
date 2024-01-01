@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    // "noImplicitAny": false,
     "plugins": [
       {
         "name": "next"
@@ -29,17 +30,19 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/animation.js",
-    "components/animation.jsx",
+    "components/animation.tsx",
     "components/contactUs.jsx",
-    "app/layout.jsx",
-    "app/page.jsx",
-    "app/about/page.jsx",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "app/about/page.tsx",
+    "app/data/list.json",
     "app/api/contact/route.js",
-    "app/products/page.jsx",
-    "components/navbar.jsx",
-    "components/footer.jsx",
+    "app/products/page.tsx",
+    "components/navbar.tsx",
+    "components/footer.tsx",
     "lib/api.js",
-    "app/api/contact/route.jsx"
+    "app/api/contact/route.jsx",
+    "app/data/products/route.js"
   ],
   "exclude": ["node_modules"]
 }

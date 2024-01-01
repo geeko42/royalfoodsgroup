@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='relative z-30 w-screen bg-primary-color'>
+    <div className='bg-fourth-color relative z-30 w-screen'>
       <div className='container mx-auto flex w-full justify-between px-10 py-5 lg:px-32'>
         <div className='hidden xl:block'>
           <Image src={logo} priority width={150} height={150} alt='royalLogo' />
@@ -55,7 +55,7 @@ const Footer = () => {
           <AiOutlineYoutube className='text-2xl text-black' />
         </div>
       </div>
-      <div className='bg-third-color flex h-10 items-center'>
+      <div className='flex h-10 items-center bg-third-color'>
         <div className='mx-auto text-xs text-white'>
           <h1>Copyright © 2023 Royal Frozen Foods | All Rights Reserved</h1>
         </div>

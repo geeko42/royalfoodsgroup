@@ -1,10 +1,12 @@
 import type { Config } from 'tailwindcss';
+import { nextui } from '@nextui-org/react';
 
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -19,15 +21,17 @@ const config: Config = {
         'myUnderLine-color': 'var(--myUnderLine-color)',
         'dark-color': 'var(--dark-color)',
         'light-color': 'var(--light-color)',
-        'offwhite-color': 'var(--offwhite-color)',
         'bodyText-color': 'var(--myBodeText-color)',
         'primary-color': 'var(--primary-color)',
         'secondary-color': 'var(--secondary-color)',
         'third-color': 'var(--third-color)',
+        'fourth-color': 'var(--fourth-color)',
+        'fifth-color': 'var(--fifth-color)',
       },
     },
   },
-  plugins: [],
+  darkMode: 'class',
+  plugins: [nextui()],
 };
 
 export default config;

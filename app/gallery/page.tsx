@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 
 import pic3 from '/public/images/pic3.jpg';
@@ -6,11 +7,12 @@ import pic5 from '/public/images/pic5.jpg';
 import pic6 from '/public/images/pic6.jpg';
 import pic7 from '/public/images/pic7.jpg';
 import pic8 from '/public/images/pic8.jpg';
+import { Button } from '@nextui-org/react';
 
 const Gallery = () => {
   return (
     // <Animation>
-    <main className='flex flex-col items-center justify-between bg-gradient-to-r from-dark-color to-light-color'>
+    <main className='flex flex-col items-center justify-center'>
       {/* Background Animation */}
       <div className='wrapper'>
         <div className='box'>
@@ -28,10 +30,11 @@ const Gallery = () => {
       </div>
 
       {/* Hero Section */}
-      <section className='body-font z-10 my-52 text-gray-600'>
-        <div className='container mx-auto flex flex-wrap px-5 py-24'>
-          <div className=' flex flex-wrap'>
-            <div className='flex w-1/2 flex-wrap'>
+
+      <section className='body-font container z-10 px-5 py-24 text-gray-600 md:py-40 lg:px-24 '>
+        <div className=' mx-auto flex h-full flex-wrap'>
+          <div className='flex h-full flex-col items-center justify-center xl:flex-row'>
+            <div className='flex h-full w-full flex-wrap xl:w-1/2'>
               <div className='w-1/2 p-1 md:p-2'>
                 <Image
                   alt='gallery'
@@ -60,7 +63,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className='flex w-1/2 flex-wrap'>
+            <div className='flex h-full w-full flex-wrap xl:w-1/2'>
               <div className='w-full p-1 md:p-2'>
                 <Image
                   alt='gallery'

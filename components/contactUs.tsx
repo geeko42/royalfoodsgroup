@@ -58,7 +58,7 @@ export default function Feedback() {
         Name
       </label>
       <input
-        className='mb-6 rounded-2xl p-3 text-sm text-black'
+        className='mb-6 rounded-2xl bg-gray-100 p-3 text-sm text-black'
         type='text'
         id='name'
         name='name'
@@ -73,7 +73,7 @@ export default function Feedback() {
         Email
       </label>
       <input
-        className='mb-6 rounded-2xl p-3 text-sm text-black'
+        className='mb-6 rounded-2xl bg-gray-100 p-3 text-sm text-black'
         type='text'
         id='email'
         name='email'
@@ -87,7 +87,7 @@ export default function Feedback() {
         Message
       </label>
       <textarea
-        className='mb-6 rounded-2xl p-3 text-sm text-black'
+        className='mb-6 rounded-2xl border-slate-950 bg-gray-100 p-3 text-sm text-black'
         id='message'
         name='message'
         placeholder='Your message here...'
@@ -98,7 +98,7 @@ export default function Feedback() {
       />
 
       <button
-        className='mb-6 w-full rounded-2xl bg-yellow-400 p-2 text-sm uppercase text-black shadow-lg hover:cursor-pointer hover:bg-yellow-600'
+        className='text-fourth-color bg-fifth-color mb-6 w-full rounded-2xl p-2 text-sm uppercase text-black shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer hover:bg-secondary-color  hover:text-primary-color'
         disabled={!canSave}
       >
         Submit
