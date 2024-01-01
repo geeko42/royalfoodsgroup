@@ -284,7 +284,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='col-span-4 h-full w-full py-10'>
+        <div className='col-span-4 h-full w-full rounded-xl py-10'>
           <Image
             className='hidde mt-4 w-full rounded-lg md:flex md:justify-start'
             src={pic9}
