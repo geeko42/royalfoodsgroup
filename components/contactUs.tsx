@@ -13,7 +13,7 @@ export default function Feedback() {
   const [data, setData] = useState(initState);
   const router = useRouter();
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     console.log(JSON.stringify(data));
     const { name, email, message } = data;
@@ -38,7 +38,7 @@ export default function Feedback() {
     router.push(`/thank-you/`);
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: any) => {
     const name = e.target.name;
 
     setData((prevData) => ({
