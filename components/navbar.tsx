@@ -15,6 +15,7 @@ import { usePathname } from 'next/navigation';
 const navLinks = [
   { name: 'Home', href: '/' },
   { name: 'Products', href: '/products/' },
+  { name: 'Store Locator', href: '/storeLocator/' },
   { name: 'About Us', href: '/about/' },
   { name: 'Gallery', href: '/gallery/' },
 ];
@@ -58,8 +59,21 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    href='/storeLocator/'
+                    onClick={() => setIsOpen(!isOpen)}
+                  >
+                    Store Locator
+                  </Link>
+                </li>
+                <li>
                   <Link href='/about' onClick={() => setIsOpen(!isOpen)}>
                     About
+                  </Link>
+                </li>
+                <li>
+                  <Link href='/gallery/' onClick={() => setIsOpen(!isOpen)}>
+                    Gallery
                   </Link>
                 </li>
                 {/* <li>
@@ -126,6 +140,17 @@ const NavBar = () => {
             'container hidden w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex xl:px-24'
           }
         >
+          <Link href='/#'>
+            <Image
+              src={logoG}
+              width={110}
+              height={110}
+              priority
+              alt='Logo of Company'
+              className=''
+            />
+          </Link>
+
           <ul
             className={
               'xl:text-md lg:text-md flex justify-center text-sm font-light uppercase tracking-wider text-primary-color md:text-sm lg:space-x-4 xl:space-x-16'
@@ -155,17 +180,6 @@ const NavBar = () => {
               );
             })}
           </ul>
-
-          <Link href='/#'>
-            <Image
-              src={logoG}
-              width={110}
-              height={110}
-              priority
-              alt='Logo of Company'
-              className=''
-            />
-          </Link>
 
           <div className='flex items-center justify-center'>
             <ul
@@ -216,7 +230,7 @@ const NavBar = () => {
             <a href='/files/brochure.pdf' download='Brochure'>
               <button
                 className={
-                  'text-fourth-color rounded-2xl bg-primary-color uppercase shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'
+                  'rounded-2xl bg-primary-color uppercase text-fourth-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'
                 }
               >
                 download brochure

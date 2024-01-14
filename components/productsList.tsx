@@ -26,7 +26,7 @@ export default function ProductsList(props: myProducts) {
   // console.log(typeof myValue + ' ' + myValue);
 
   return (
-    <Table aria-label='Example table with dynamic content'>
+    <Table>
       <TableHeader columns={myList.columns}>
         {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}
       </TableHeader>

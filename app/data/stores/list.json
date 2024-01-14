@@ -1,0 +1,343 @@
+{
+  "columns": [
+    {
+      "key": "key",
+      "label": "Serial"
+    },
+    {
+      "key": "stores",
+      "label": "Name of Store"
+    },
+    {
+      "key": "city",
+      "label": "City"
+    }
+  ],
+  "rows": [
+    {
+      "key": 1,
+      "stores": "D Watson Chemist",
+      "city": "Islamabad F-10"
+    },
+    {
+      "key": 2,
+      "stores": "D Watson Chemist",
+      "city": "Islamabad F-11"
+    },
+    {
+      "key": 3,
+      "stores": "D Watson Chemist",
+      "city": "Islamabad G-11"
+    },
+    {
+      "key": 4,
+      "stores": "Ali Meat Shop",
+      "city": "G7 Islamabad"
+    },
+    {
+      "key": 5,
+      "stores": "Cock & Bull",
+      "city": "F-7 Markaz"
+    },
+    {
+      "key": 6,
+      "stores": "Cock & Bull",
+      "city": "F-11 Markaz Isb"
+    },
+    {
+      "key": 7,
+      "stores": "Air University Tuck Shop",
+      "city": "E 9 Isb"
+    },
+    {
+      "key": 8,
+      "stores": "Metro Cash & Carry",
+      "city": "Islamabad"
+    },
+    {
+      "key": 9,
+      "stores": "Metro Cash & Carry",
+      "city": "Islamabad"
+    },
+    {
+      "key": 10,
+      "stores": "Hyper Star Giga Mall",
+      "city": "Islamabad"
+    },
+    {
+      "key": 11,
+      "stores": "Imran Super Store",
+      "city": "Islamabad"
+    },
+    {
+      "key": 12,
+      "stores": "Metro Thokar",
+      "city": "Lahore"
+    },
+    {
+      "key": 13,
+      "stores": "Metro DHA",
+      "city": "Lahore"
+    },
+    {
+      "key": 14,
+      "stores": "Metro Ravi",
+      "city": "Lahore"
+    },
+    {
+      "key": 15,
+      "stores": "Green Valley",
+      "city": "Lahore / Lahore Mall Cantt"
+    },
+    {
+      "key": 16,
+      "stores": "CSD Mall ",
+      "city": "Lahore"
+    },
+    {
+      "key": 17,
+      "stores": "CSD ",
+      "city": "Lahore"
+    },
+    {
+      "key": 18,
+      "stores": "Hyper Star Emporium ",
+      "city": "Lahore"
+    },
+    {
+      "key": 19,
+      "stores": "Hyper Star Fotress",
+      "city": "Lahore"
+    },
+    {
+      "key": 20,
+      "stores": "Hyper Star Packages ",
+      "city": "Lahore"
+    },
+    {
+      "key": 21,
+      "stores": "CSD Supermarket Kalapul",
+      "city": "Karachi"
+    },
+    {
+      "key": 22,
+      "stores": "Hyper Star Dolmen Mall",
+      "city": "Karachi"
+    },
+    {
+      "key": 23,
+      "stores": "Hyper Lucky One Mall",
+      "city": "Karachi"
+    },
+    {
+      "key": 24,
+      "stores": "Metro Safari Park",
+      "city": "Karachi"
+    },
+    {
+      "key": 25,
+      "stores": "Metro Mangopir",
+      "city": "Karachi"
+    },
+    {
+      "key": 26,
+      "stores": "Metro Star Gate",
+      "city": "Karachi"
+    },
+    {
+      "key": 27,
+      "stores": "Green Valley",
+      "city": "Rawalpindi Bahria Phase 7"
+    },
+    {
+      "key": 28,
+      "stores": "CSD Lal Kurti ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 29,
+      "stores": "Roshan Bakers",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 30,
+      "stores": "Baker Man",
+      "city": "Westrkeyge Rawalpindi"
+    },
+    {
+      "key": 31,
+      "stores": "Assetz Mart ",
+      "city": "Bahria Town Phase 8 Rawalpindi"
+    },
+    {
+      "key": 32,
+      "stores": "Khan Cash & Carry ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 33,
+      "stores": "Bread and Cake",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 34,
+      "stores": "Stop and Shop Bahria Town",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 35,
+      "stores": "Bakeway Bakers & Sweets",
+      "city": "Rawalpindi Near Jahaz Ground Khanna Dak"
+    },
+    {
+      "key": 36,
+      "stores": "London Bakers",
+      "city": "Rawalpindi Bahria Phase 8"
+    },
+    {
+      "key": 37,
+      "stores": "Ajwa Cash & Carry",
+      "city": "Rawalpindi/Gulraiz Highcourt Rd."
+    },
+    {
+      "key": 38,
+      "stores": "keyeal Bakers",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 39,
+      "stores": "Ameen Fish",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 40,
+      "stores": "Hamza Bakers ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 41,
+      "stores": "CSD GT Road ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 42,
+      "stores": "Descent Choice ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 43,
+      "stores": "Pizza Setup ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 44,
+      "stores": "Sheraz Bakers",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 45,
+      "stores": "Hamad Cash & Carry",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 46,
+      "stores": "Tyub Bakers",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 47,
+      "stores": "Abdullah Store ",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 48,
+      "stores": "Chicki Chicken",
+      "city": "Rawalpindi"
+    },
+    {
+      "key": 49,
+      "stores": "CSD ",
+      "city": "Peshawar"
+    },
+    {
+      "key": 50,
+      "stores": "Wadud Homes ",
+      "city": "Peshawar"
+    },
+    {
+      "key": 51,
+      "stores": "Pak Bakers",
+      "city": "Mandra"
+    },
+    {
+      "key": 52,
+      "stores": "L Primio Bakers",
+      "city": "Gujaranwala Cantt"
+    },
+    {
+      "key": 53,
+      "stores": "M Store ",
+      "city": "Khariyan Cantt"
+    },
+    {
+      "key": 54,
+      "stores": "G 5 Mall Kallar Syadan",
+      "city": "Kallar Syadan Road Main Bazar"
+    },
+    {
+      "key": 55,
+      "stores": "Apna Mart",
+      "city": "Kallar Road Rawat Rwp"
+    },
+    {
+      "key": 56,
+      "stores": "Prince Bakers",
+      "city": "Khahota Main Bazar"
+    },
+    {
+      "key": 57,
+      "stores": "Amjad Baig",
+      "city": "Faisalabad"
+    },
+    {
+      "key": 58,
+      "stores": "Burning Beans ",
+      "city": "Military College Jehlum"
+    },
+    {
+      "key": 59,
+      "stores": "Wah Sweet",
+      "city": "Wah Cantt"
+    },
+    {
+      "key": 60,
+      "stores": "Yum Bakers ",
+      "city": "Wah Cantt"
+    },
+    {
+      "key": 61,
+      "stores": "Yum Bakers ",
+      "city": "Basti Branch Wah"
+    },
+    {
+      "key": 62,
+      "stores": "B & D Shop ",
+      "city": "Kaller Syadan"
+    },
+    {
+      "key": 63,
+      "stores": "Super Way",
+      "city": "Mandra"
+    },
+    {
+      "key": 64,
+      "stores": "Super Way ",
+      "city": "Rawat"
+    },
+    {
+      "key": 65,
+      "stores": "city Bakery ",
+      "city": "Mandra "
+    }
+  ]
+}
