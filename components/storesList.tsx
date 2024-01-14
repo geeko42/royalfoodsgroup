@@ -29,7 +29,7 @@ export default function StoreList() {
     const end = start + rowsPerPage;
 
     return myList.rows.slice(start, end);
-  }, [page, myList.stores]);
+  }, [page]);
   return (
     <Table
       bottomContent={
