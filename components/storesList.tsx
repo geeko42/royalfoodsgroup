@@ -19,7 +19,7 @@ interface StoreListItems {
 
 export default function StoreList() {
   const [page, setPage] = useState(1);
-  const rowsPerPage = 10;
+  const rowsPerPage = 7;
 
   console.log(myList.rows.length);
   const pages = Math.ceil(myList.rows.length / rowsPerPage);
