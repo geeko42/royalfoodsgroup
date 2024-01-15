@@ -31,7 +31,7 @@ const StoreLocator = () => {
 
   return (
     // <Animation>
-    <main className='flex h-screen flex-col items-center justify-between md:h-[1000px]'>
+    <main className='flex h-[1000px] flex-col items-center justify-between md:h-[1000px]'>
       {/* Background Animation */}
       <div className='wrapper'>
         <div className='box'>

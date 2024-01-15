@@ -34,7 +34,7 @@ const Products = () => {
 
   return (
     // <Animation>
-    <main className='flex h-screen flex-col items-center justify-between md:h-[1000px]'>
+    <main className='flex h-[1000px] flex-col items-center justify-between md:h-[1000px]'>
       {/* Background Animation */}
       <div className='wrapper'>
         <div className='box'>
@@ -53,7 +53,7 @@ const Products = () => {
 
       {/* Hero Section */}
       <section className='flex h-full w-full flex-wrap items-center justify-center '>
-        <div className='container mx-auto flex flex-wrap px-10 md:h-full '>
+        <div className='container flex flex-wrap justify-center px-10 md:h-full '>
           <div className='z-1 relative h-full md:w-1/2 lg:w-1/3'>
             <div className='flex h-full w-full flex-col items-center justify-center space-y-6 text-center text-mytext-color md:items-start md:text-left'>
               <h1 className='text-2xl font-normal text-primary-color md:text-5xl'>
@@ -77,10 +77,10 @@ const Products = () => {
                       key={link.name}
                       id={link.name}
                       onClick={() => onClickButton(link.name)}
-                      className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-fourth-color text-xs uppercase text-primary-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer hover:bg-secondary-color md:h-24 md:w-24 lg:text-sm'
+                      className='flex h-14 w-14 flex-col items-center justify-center rounded-2xl bg-fourth-color text-xs uppercase text-primary-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer hover:bg-secondary-color md:h-24 md:w-24 lg:text-sm'
                     >
-                      <link.icons className='text-4xl md:text-4xl' />
-                      <label htmlFor='' className='md:text-md text-[10px]'>
+                      <link.icons className='text-2xl md:text-4xl' />
+                      <label htmlFor='' className='md:text-md text-[8px]'>
                         {link.name}
                       </label>
                     </button>
