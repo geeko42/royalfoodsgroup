@@ -9,33 +9,33 @@
       "label": "Description"
     },
     {
-      "key": "grammage",
-      "label": "Grammage"
+      "key": "quantity",
+      "label": "Quantity"
     }
   ],
   "Vegetable": [
     {
       "key": "1",
       "name": "Alloo Rolls",
-      "grammage": "12/24 pieces",
+      "quantity": "12/24 pieces",
       "label": "Vegetable"
     },
     {
       "key": "2",
       "name": "Alloo Samosa",
-      "grammage": "12/24 pieces",
+      "quantity": "12/24 pieces",
       "label": "Vegetable"
     },
     {
       "key": "3",
       "name": "Vegetable Samosa",
-      "grammage": "12 pieces",
+      "quantity": "12 pieces",
       "label": "Vegetable"
     },
     {
       "key": "4",
       "name": "Vegetable Rolls",
-      "grammage": "12 pieces",
+      "quantity": "12 pieces",
       "label": "Vegetable"
     }
   ],
@@ -43,43 +43,43 @@
     {
       "key": "1",
       "name": "Chicken Kofta",
-      "grammage": "12/24 pieces",
+      "quantity": "12/24 pieces",
       "label": "Chicken"
     },
     {
       "key": "2",
       "name": "Chicken Shami Kebab",
-      "grammage": "12/24 pieces",
+      "quantity": "12/24 pieces",
       "label": "Chicken"
     },
     {
       "key": "3",
       "name": "Chicken Seekh Kebab",
-      "grammage": "7/12/24 pieces",
+      "quantity": "7/12/24 pieces",
       "label": "Chicken"
     },
     {
       "key": "4",
       "name": "Chicken Burger Patty",
-      "grammage": "6/16 pieces",
+      "quantity": "6/16 pieces",
       "label": "Chicken"
     },
     {
       "key": "5",
       "name": "Chicken Chinese Rolls",
-      "grammage": "12/24 pieces & 500g",
+      "quantity": "12/24 pieces & 500g",
       "label": "Chicken"
     },
     {
       "key": "6",
       "name": "Chicken Nuggets",
-      "grammage": "270g/1kg",
+      "quantity": "270g/1kg",
       "label": "Chicken"
     },
     {
       "key": "7",
       "name": "Chicken Samosa",
-      "grammage": "12/24 pieces & 1000g ",
+      "quantity": "12/24 pieces & 1000g ",
       "label": "Chicken"
     }
   ],
@@ -87,43 +87,43 @@
     {
       "key": "1",
       "name": "Fish Burger Patty",
-      "grammage": "2 pieces",
+      "quantity": "2 pieces",
       "label": "Fish"
     },
     {
       "key": "2",
       "name": "Fish Popcorn",
-      "grammage": "250g",
+      "quantity": "250g",
       "label": "Fish"
     },
     {
       "key": "3",
       "name": "Fish Fillet Breaded",
-      "grammage": "300g/700g",
+      "quantity": "300g/700g",
       "label": "Fish"
     },
     {
       "key": "4",
       "name": "Fish Fillet Breaded Hot & Spicy",
-      "grammage": "300g",
+      "quantity": "300g",
       "label": "Fish"
     },
     {
       "key": "5",
       "name": "Fish Finger Breaded",
-      "grammage": "300g/700g",
+      "quantity": "300g/700g",
       "label": "Fish"
     },
     {
       "key": "6",
       "name": "Fish Nuggets",
-      "grammage": "300g",
+      "quantity": "300g",
       "label": "Fish"
     },
     {
       "key": "7",
       "name": "Fish Biscuit Raw",
-      "grammage": "1000g ",
+      "quantity": "1000g ",
       "label": "Fish"
     }
   ],
@@ -131,79 +131,79 @@
     {
       "key": "1",
       "name": "Breaded Prawns",
-      "grammage": "250g",
+      "quantity": "250g",
       "label": "Prawns"
     },
     {
       "key": "2",
       "name": "Prawns-Small",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "3",
       "name": "Prawns - Medium",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "4",
       "name": "Prawns - Large",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "5",
       "name": "Prawns - Jumbo",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "6",
       "name": "Prawns - King",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "7",
       "name": "Prawns - 21/25",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "8",
       "name": "Prawns - 11/15",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "9",
       "name": "Prawns - 8/12",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "10",
       "name": "Prawns - 16/20",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "11",
       "name": "Prawns - 26/30",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "12",
       "name": "Prawns - 31/40",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     },
     {
       "key": "13",
       "name": "Butterfly Prawns",
-      "grammage": "500g",
+      "quantity": "500g",
       "label": "Prawns"
     }
   ],
@@ -211,19 +211,19 @@
     {
       "key": "1",
       "name": "Plain Paratha",
-      "grammage": "5 pieces",
+      "quantity": "5 pieces",
       "label": "Parathas"
     },
     {
       "key": "2",
       "name": "Plain Paratha",
-      "grammage": "20 pieces",
+      "quantity": "20 pieces",
       "label": "Parathas"
     },
     {
       "key": "3",
       "name": "Plain Paratha",
-      "grammage": "30 pieces",
+      "quantity": "30 pieces",
       "label": "Parathas"
     }
   ]

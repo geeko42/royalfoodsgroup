@@ -137,7 +137,7 @@ const NavBar = () => {
       <section className='absolute top-0 z-20 mx-auto flex h-28 w-full justify-center '>
         <nav
           className={
-            'container hidden w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex xl:px-24'
+            'container hidden w-full items-center justify-between text-primary-color transition-all duration-500 md:px-8 lg:flex'
           }
         >
           <Link href='/#'>

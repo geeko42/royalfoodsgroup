@@ -34,7 +34,7 @@ const Products = () => {
 
   return (
     // <Animation>
-    <main className='flex h-screen flex-col items-center justify-between md:h-screen'>
+    <main className='flex h-screen flex-col items-center justify-between md:h-[1000px]'>
       {/* Background Animation */}
       <div className='wrapper'>
         <div className='box'>
@@ -53,12 +53,12 @@ const Products = () => {
 
       {/* Hero Section */}
       <section className='flex h-full w-full flex-wrap items-center justify-center '>
-        <div className='container mx-auto flex flex-wrap px-10 md:h-full lg:px-24'>
+        <div className='container mx-auto flex flex-wrap px-10 md:h-full '>
           <div className='z-1 relative h-full md:w-1/2 lg:w-1/3'>
             <div className='flex h-full w-full flex-col items-center justify-center space-y-6 text-center text-mytext-color md:items-start md:text-left'>
-              <h1 className='text-4xl font-normal text-primary-color md:text-5xl lg:text-6xl'>
+              <h1 className='text-2xl font-normal text-primary-color md:text-5xl'>
                 Select the type of{' '}
-                <span className='text-4xl font-bold text-light-color md:text-5xl lg:text-6xl'>
+                <span className='text-2xl font-bold text-light-color md:text-5xl'>
                   Food
                 </span>
               </h1>
@@ -77,7 +77,7 @@ const Products = () => {
                       key={link.name}
                       id={link.name}
                       onClick={() => onClickButton(link.name)}
-                      className='bg-fourth-color flex h-16 w-16 flex-col items-center justify-center rounded-2xl text-xs uppercase text-primary-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer hover:bg-secondary-color md:h-24 md:w-24 lg:text-sm'
+                      className='flex h-16 w-16 flex-col items-center justify-center rounded-2xl bg-fourth-color text-xs uppercase text-primary-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer hover:bg-secondary-color md:h-24 md:w-24 lg:text-sm'
                     >
                       <link.icons className='text-4xl md:text-4xl' />
                       <label htmlFor='' className='md:text-md text-[10px]'>
@@ -92,38 +92,10 @@ const Products = () => {
 
           <div className='z-1 relative mx-auto  mt-10 flex h-full w-full flex-col items-center justify-center md:mt-0 md:w-2/4'>
             <ProductsList name={clickedValue} />
-
-            {/* <div className='hidden h-1/3 items-center justify-start text-left md:flex'>
-              <a className='flex h-24 w-24 flex-col items-center justify-center rounded-lg bg-primary-color bg-opacity-50 text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer lg:text-sm'>
-                <BsFillArrowLeftCircleFill className='hidden text-4xl lg:block' />
-              </a>
-                
-                            <Image
-                src={vegetable}
-                height={500}
-                width={500}
-                priority
-                alt='img'
-              />
-              <a className='flex h-24 w-24 flex-col items-center justify-center rounded-lg bg-primary-color bg-opacity-50 text-xs uppercase text-mytext-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:cursor-pointer lg:text-sm'>
-                <BsArrowRightCircleFill className='hidden text-4xl lg:block' />
-              </a>
-            </div> */}
           </div>
-
-          {/* <div className='z-1 flex h-full items-center md:w-1/4'>
-            <Image
-              src={vegetable}
-              height={500}
-              width={500}
-              priority
-              alt='img'
-            />
-          </div> */}
         </div>
       </section>
     </main>
-    // {/* </Animation> */}
   );
 };
 
