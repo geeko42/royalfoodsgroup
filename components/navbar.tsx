@@ -44,7 +44,7 @@ const NavBar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className={`fixed left-0 top-0 z-50 h-screen w-screen  bg-opacity-40 backdrop-blur-md transition-opacity`}
+            className={`fixed left-0 top-0 z-50 h-screen w-screen bg-opacity-40 backdrop-blur-md transition-opacity`}
           >
             <div className='flex h-full flex-col items-center justify-center text-center text-2xl text-primary-color'>
               <ul className='space-y-6'>
@@ -153,7 +153,7 @@ const NavBar = () => {
 
           <ul
             className={
-              'xl:text-md lg:text-md flex justify-center text-sm font-light uppercase tracking-wider text-primary-color md:text-sm lg:space-x-4 xl:space-x-16'
+              'flex justify-center text-xs font-light uppercase tracking-wider text-primary-color md:space-x-10'
             }
           >
             {navLinks.map((link) => {
@@ -230,7 +230,7 @@ const NavBar = () => {
             <a href='/files/brochure.pdf' download='Brochure'>
               <button
                 className={
-                  'rounded-2xl bg-primary-color uppercase text-fourth-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:px-6 lg:py-2 lg:text-xs xl:px-8 xl:py-2 xl:text-sm'
+                  'rounded-2xl bg-primary-color text-xs uppercase text-fourth-color shadow-lg transition duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-secondary-color hover:text-primary-color lg:px-6 lg:py-2 xl:px-8 xl:py-2'
                 }
               >
                 download brochure
