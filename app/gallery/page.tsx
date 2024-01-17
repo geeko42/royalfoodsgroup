@@ -1,13 +1,12 @@
 'use client';
-import Image from 'next/image';
 
-import pic3 from '/public/images/pic3.jpg';
-import pic4 from '/public/images/pic4.jpg';
-import pic5 from '/public/images/pic5.jpg';
-import pic6 from '/public/images/pic6.jpg';
-import pic7 from '/public/images/pic7.jpg';
-import pic8 from '/public/images/pic8.jpg';
-import { Button } from '@nextui-org/react';
+import Image from 'next/image';
+import { Button, Card, CardHeader } from '@nextui-org/react';
+
+const imageContext = require.context('/public/images/products', false);
+
+const images = imageContext.keys().map(imageContext);
+console.log(imageContext.keys());
 
 const Gallery = () => {
   return (
@@ -31,72 +30,25 @@ const Gallery = () => {
 
       {/* Hero Section */}
 
-      <section className='body-font container z-10 px-5 py-24 text-gray-600 md:py-40 lg:px-24 '>
-        <div className=' mx-auto flex h-full flex-wrap'>
-          <div className='flex h-full flex-col items-center justify-center xl:flex-row'>
-            <div className='flex h-full w-full flex-wrap xl:w-1/2'>
-              <div className='w-1/2 p-1 md:p-2'>
+      <section className='body-font container z-10 h-full px-5 py-24 text-gray-600 md:py-40 '>
+        <div className=' mx-auto flex h-full w-full flex-wrap'>
+          <div className='grid max-w-full grid-cols-12 grid-rows-2 gap-2 px-8'>
+            {images.map((item, key) => (
+              <Card key={key} className='col-span-12 h-[300px] sm:col-span-4'>
                 <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic3}
-                  width={100}
-                  height={100}
+                  key={key}
+                  height={14}
+                  width={14}
+                  alt='Card background'
+                  className='z-0 h-full w-full cursor-pointer object-cover transition-all duration-1000 hover:scale-125'
+                  src={(item as { default: string }).default}
                 />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic4}
-                  width={100}
-                  height={100}
-                />
-              </div>
-              <div className='w-full p-1 md:p-2'>
-                <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic5}
-                  width={100}
-                  height={100}
-                />
-              </div>
-            </div>
-            <div className='flex h-full w-full flex-wrap xl:w-1/2'>
-              <div className='w-full p-1 md:p-2'>
-                <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic6}
-                  width={300}
-                  height={300}
-                />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic7}
-                  width={300}
-                  height={300}
-                />
-              </div>
-              <div className='w-1/2 p-1 md:p-2'>
-                <Image
-                  alt='gallery'
-                  className='block h-full w-full rounded-lg object-cover object-center'
-                  src={pic8}
-                  width={300}
-                  height={300}
-                />
-              </div>
-            </div>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
     </main>
-    // {/* </Animation> */}
   );
 };
 

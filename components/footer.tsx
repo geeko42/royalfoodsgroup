@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-fourth-color relative z-30 w-screen'>
+    <div className='relative z-30 w-screen bg-fourth-color'>
       <div className='container mx-auto flex w-full justify-between px-10 py-5 lg:px-32'>
         <div className='hidden xl:block'>
           <Image src={logo} priority width={150} height={150} alt='royalLogo' />

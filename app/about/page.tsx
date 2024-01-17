@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 import image1 from '../../public/images/pic1.png';
 import image2 from '../../public/images/pic2.png';
-import pic3 from '/public/images/pic3.jpg';
-import pic4 from '/public/images/pic4.jpg';
-import pic5 from '/public/images/pic5.jpg';
-import pic6 from '/public/images/pic6.jpg';
-import pic7 from '/public/images/pic7.jpg';
-import pic8 from '/public/images/pic8.jpg';
+import pic3 from '/public/images/products/pic3.jpg';
+import pic4 from '/public/images/products/pic4.jpg';
+import pic5 from '/public/images/products/pic5.jpg';
+import pic6 from '/public/images/products/pic6.jpg';
+import pic7 from '/public/images/products/pic7.jpg';
+import pic8 from '/public/images/products/pic8.jpg';
 import pic9 from '/public/images/pic9.png';
 
 const About = () => {
